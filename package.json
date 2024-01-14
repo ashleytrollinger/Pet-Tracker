@@ -1,0 +1,27 @@
+{
+  "name": "pet-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.2",
+    "aws-sdk": "^2.1532.0",
+    "bcryptjs": "^2.4.3",
+    "fs": "^0.0.1-security",
+    "mock-aws-s3": "^4.0.2",
+    "next": "^14.0.4",
+    "nock": "^13.4.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  }
+}
